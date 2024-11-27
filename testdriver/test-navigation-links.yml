@@ -1,0 +1,54 @@
+version: 4.1.29
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Identify navigation links in the header.
+    commands:
+      - command: hover-text
+        text: KeepNetLabs
+        description: website name in the header
+        action: hover
+  - prompt: Identify navigation links in the header.
+    commands:
+      - command: hover-text
+        text: KeepNetLabs
+        description: website name in the header
+        action: hover
+      - command: hover-text
+        text: Login
+        description: login link in the header
+        action: hover
+      - command: hover-text
+        text: KeepNetLabs
+        description: website name in the header
+        action: hover
+  - prompt: Identify navigation links in the header.
+    commands:
+      - command: hover-text
+        text: Welcome To KeepNetLabs
+        description: welcome text in the header
+        action: hover
+      - command: hover-text
+        text: Please Login
+        description: login prompt in the header
+        action: hover
+      - command: hover-text
+        text: Email address
+        description: email input label in the header
+        action: hover
+  - prompt: Identify navigation links in the header.
+    commands:
+      - command: hover-text
+        text: KeepNetLabs
+        description: website name in the header
+        action: hover
+      - command: hover-text
+        text: Login
+        description: login link in the header
+        action: hover
+      - command: hover-text
+        text: Continue
+        description: continue button below email input
+        action: hover
